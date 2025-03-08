@@ -84,7 +84,37 @@
             margin: 2rem auto;
             padding: 0 2rem;
         }
-        
+        /* Update the image class for all blog post images */
+.blog-post img {
+    width: 100%;
+    height: 220px; /* Reduced from 300px to make images less dominant */
+    object-fit: cover;
+    display: block; /* Ensures proper layout */
+}
+
+/* Adjust the blog container ratio to give more space to the sidebar */
+.blog-container {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr; /* Adjusted from 3fr 1fr */
+    gap: 2rem;
+}
+
+/* Reduce the blog post content padding for better proportions */
+.blog-post-content {
+    padding: 1.5rem; /* Reduced from 2rem */
+}
+
+/* Make the blog posts more compact */
+.blog-post {
+    margin-bottom: 1.5rem; /* Add some space between posts */
+}
+
+/* Improve readability of blog post text */
+.blog-post-excerpt p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
         /* Blog Styles */
         .blog-intro {
             text-align: center;
@@ -341,43 +371,43 @@
             <section class="blog-posts">
                 <!-- Blog Post 1 -->
                 <article class="blog-post">
-                    <img src="https://via.placeholder.com/800x400?text=The+Future+of+Web+Development" alt="The Future of Web Development" class="blog-post-img">
+                    <img src="img/berita 1.jpg" class="teknologi-AI.jpg">
                     <div class="blog-post-content">
-                        <p class="blog-post-date">March 5, 2025</p>
-                        <h3>The Future of Web Development: Trends to Watch in 2025</h3>
+                        <p class="blog-post-date">Agust 5, 2022</p>
+                        <h3>Tantangan dalam Pengembangan Teknologi Artificial Intelligence di Indoensia</h3>
                         <div class="blog-post-excerpt">
-                            <p>The web development landscape is constantly evolving with new technologies, frameworks, and methodologies emerging at a rapid pace. In this article, we'll explore the most promising trends that are shaping the future of web development in 2025 and beyond.</p>
-                            <p>From AI-driven development tools to WebAssembly and edge computing, understanding these trends is crucial for developers looking to stay at the forefront of the industry. We'll dive into practical examples and discuss how these technologies are being implemented in real-world projects.</p>
+                            <p>Pengembangan kecerdasan artifisial (AI) di Indonesia menghadapi berbagai tantangan meskipun dokumen strategi nasional telah dirumuskan pada 2020 dan adopsi industri semakin meningkat. Tantangan utama meliputi keterbatasan infrastruktur teknologi seperti jaringan internet dan pusat data yang memadai, akses terbatas ke data berkualitas yang sering tidak lengkap atau tidak terstruktur, regulasi yang belum mengakomodasi perkembangan teknologi terbaru, isu etika dan privasi yang kompleks dengan kesadaran masyarakat masih rendah, serta dukungan pemerintah yang belum optimal.</p>
+                            <p>Untuk mengatasi tantangan tersebut, diperlukan solusi komprehensif berupa peningkatan infrastruktur teknologi melalui kolaborasi pemerintah dan swasta, pengembangan program pendidikan dan pelatihan AI yang relevan, pembaruan regulasi dan kerangka hukum yang mendukung perkembangan teknologi sekaligus melindungi privasi, peningkatan kesadaran dan penerimaan masyarakat melalui kampanye edukasi, serta dorongan investasi dan dukungan pemerintah yang lebih besar dalam riset dan pengembangan untuk memperkuat kolaborasi antara pemerintah, sektor swasta, dan akademisi demi mendorong inovasi teknologi AI di Indonesia.</p>
                         </div>
-                        <a href="#" class="read-more">Read More</a>
+                        <a href="https://binus.ac.id/malang/2022/08/tantangan-dalam-pengembangan-teknologi-artificial-intelligence-di-indonesia/" class="read-more">Read More</a>
                     </div>
                 </article>
                 
                 <!-- Blog Post 2 -->
                 <article class="blog-post">
-                    <img src="https://via.placeholder.com/800x400?text=Responsive+Design+Principles" alt="Responsive Design Principles" class="blog-post-img">
+                    <img src="img/berita 3.png" alt="Responsive Design Principles" class="blog-post-img">
                     <div class="blog-post-content">
                         <p class="blog-post-date">February 22, 2025</p>
-                        <h3>Mastering Responsive Design: Principles for Modern Websites</h3>
+                        <h3>Transformasi Kreativitas Seni Digital di Era Modern</h3>
                         <div class="blog-post-excerpt">
-                            <p>Responsive design is no longer optional—it's a necessity. With users accessing websites from a multitude of devices with different screen sizes, creating a seamless experience across all platforms is paramount to success.</p>
-                            <p>In this comprehensive guide, we'll cover the fundamental principles of responsive design, from fluid grids and flexible images to media queries and mobile-first approaches. Learn how to create websites that look and function beautifully on any device.</p>
+                            <p>Seni digital menggabungkan kreativitas manusia dengan teknologi canggih untuk menciptakan karya yang melampaui batas tradisional—dari ilustrasi dan animasi yang memesona hingga pengalaman imersif lewat AR, VR, dan NFT—meskipun harus bertarung dengan persaingan ketat, kritik soal "kejiwaan" karya, risiko pencurian, dan ketergantungan pada teknologi yang kadang mogok di saat genting; </p>
+                            <p>namun, dengan kolaborasi AI, ruang virtual metaverse, serta peluang edukasi dan pasar global yang semakin inklusif, seni digital menjanjikan masa depan yang tak terbatas, seolah mengundang kita untuk terus berinovasi sambil tetap menghargai nilai-nilai seni tradisional sebagai fondasi kreativitas.</p>
                         </div>
-                        <a href="#" class="read-more">Read More</a>
+                        <a href="https://www.chipperthings.com/info/transformasi-kreativitas-seni-digital-di-era-modern/" class="read-more">Read More</a>
                     </div>
                 </article>
                 
                 <!-- Blog Post 3 -->
                 <article class="blog-post">
-                    <img src="https://via.placeholder.com/800x400?text=Optimizing+Website+Performance" alt="Optimizing Website Performance" class="blog-post-img">
+                    <img src="img/berita 2.png" alt="berita 3" class="blog-post-img">
                     <div class="blog-post-content">
-                        <p class="blog-post-date">February 8, 2025</p>
-                        <h3>Optimizing Website Performance: Speed Matters</h3>
+                        <p class="blog-post-date">November 23, 2024</p>
+                        <h3>Strategi Financial Freedom: Langkah-langkah menuju Kemandirian Keuangan di Masa Muda</h3>
                         <div class="blog-post-excerpt">
-                            <p>Website performance has a direct impact on user experience, conversion rates, and even SEO rankings. In today's fast-paced world, users expect websites to load quickly and respond immediately to their interactions.</p>
-                            <p>This article explores practical techniques for optimizing website performance, including image optimization, lazy loading, code splitting, caching strategies, and more. We'll also look at tools and metrics for measuring performance and setting benchmarks for your projects.</p>
+                            <p>Financial freedom adalah kondisi di mana seseorang memiliki tabungan yang cukup, bebas dari utang, dan memperoleh pendapatan pasif sehingga bisa mengambil keputusan keuangan dengan tenang—ini bukan sulap, tapi hasil dari investasi dan perencanaan yang cerdas sejak muda. Artikel ini mengajak kita untuk mulai mengelola pengeluaran dengan membuat anggaran yang bijak (misalnya metode 70/20/10 atau 50/30/10/10), mengurangi utang, serta menghindari gaya hidup konsumtif, sambil meningkatkan pendapatan lewat pengembangan keterampilan, peluang bisnis sampingan, dan diversifikasi investasi di reksa dana, saham, obligasi, atau properti.</p>
+                            <p>Selain itu, perencanaan keuangan jangka pendek dan panjang dengan tujuan SMART, manajemen risiko melalui dana darurat, serta perlindungan melalui asuransi jiwa dan kesehatan—seperti PRULink NextGen dan PRUPrime Healthcare Plus Pro—merupakan langkah strategis untuk memastikan masa depan finansial yang stabil. Jadi, walaupun tidak bisa disulap seperti merubah kopi jadi emas, dengan perencanaan matang, financial freedom bisa menjadi kenyataan bagi mereka yang mau berinvestasi pada diri sendiri sejak dini.</p>
                         </div>
-                        <a href="#" class="read-more">Read More</a>
+                        <a href="https://www.prudential.co.id/id/pulse/article/financial-freedom/" class="read-more">Read More</a>
                     </div>
                 </article>
             </section>
@@ -385,17 +415,17 @@
             <aside class="sidebar">
                 <!-- About Widget -->
                 <div class="sidebar-widget">
-                    <h3>About Me</h3>
-                    <p>Hi, I'm John Doe, a web developer passionate about creating beautiful, functional websites. This blog is where I share my knowledge and insights about web development and design.</p>
+                    <h3>Tentang Saya</h3>
+                    <p>Hai! Saya Elsa Monica Siwy dengan NIM 230211060003 saat ini saya berada Semester 4 pada Program Studi Teknik Informatika, Tujuan saya membuat website ini untuk memenuhi Tugas Mata Kuliah Pemograman Web</p>
                 </div>
                 
                 <!-- Recent Posts Widget -->
                 <div class="sidebar-widget">
                     <h3>Recent Posts</h3>
                     <ul class="recent-posts-list">
-                        <li><a href="#">The Future of Web Development: Trends to Watch in 2025</a></li>
-                        <li><a href="#">Mastering Responsive Design: Principles for Modern Websites</a></li>
-                        <li><a href="#">Optimizing Website Performance: Speed Matters</a></li>
+                        <li><a href="#">Tantangan dalam Pengembangan Teknologi Artificial Intelligence di Indoensia</a></li>
+                        <li><a href="#">Transformasi Kreativitas Seni Digital di Era Modern</a></li>
+                        <li><a href="#">Strategi Financial Freedom: Langkah-langkah menuju Kemandirian Keuangan di Masa Muda</a></li>
                         <li><a href="#">Accessibility in Web Design: Building for Everyone</a></li>
                         <li><a href="#">Introduction to CSS Grid: Creating Complex Layouts</a></li>
                     </ul>
@@ -435,15 +465,15 @@
     <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+            <p>&copy; 2025 Elsa Portfolio. All rights reserved.</p>
             <div class="social-links">
                 <!-- Simple text-based social links -->
-                <a href="#" title="GitHub">GitHub</a>
-                <a href="#" title="LinkedIn">LinkedIn</a>
-                <a href="#" title="Twitter">Twitter</a>
-                <a href="#" title="Instagram">Instagram</a>
+                <a href="https://github.com/ElsaMonica77" title="GitHub">GitHub</a>
+                <a href="https://www.linkedin.com/in/elsa-monica-siwy-664352289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" title="LinkedIn">LinkedIn</a>
+                <a href="https://wa.me/6281340298862" title="WhatsApp">WhatsApp</a>
+                <a href="https://www.instagram.com/elsamonicasiwy" title="Instagram">Instagram</a>
             </div>
-            <p>Made with ❤️ using HTML</p>
+            <p>Universitas Sam Ratulangi</p>
         </div>
     </footer>
 </body>
