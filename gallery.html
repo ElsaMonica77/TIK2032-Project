@@ -210,9 +210,46 @@
                 grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             }
         }
+        /* JavaScript-enabled styles */
+.error-message {
+    color: #ff3860;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+}
+
+.form-control.error {
+    border-color: #ff3860;
+}
+
+/* Animation for gallery items and other elements */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.gallery-item {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Style for active category button */
+.category-btn.active {
+    background-color: #6e8efb;
+    color: white;
+}
+
+/* Blog search styles */
+.blog-search {
+    margin-bottom: 2rem;
+}
+
+.search-input:focus {
+    border-color: #6e8efb;
+    outline: none;
+}
     </style>
 </head>
 <body>
+    <script src="script.js"></script>
     <!-- Header Section -->
     <header>
         <div class="header-content">
