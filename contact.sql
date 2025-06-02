@@ -1,8 +1,8 @@
 -- Create database
-CREATE DATABASE IF NOT EXISTS portfolio_db CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+CREATE DATABASE IF NOT EXISTS portfolio_elsa CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 -- Use the database
-USE portfolio_db;
+USE portfolio_elsa;
 
 -- Create contacts table
 CREATE TABLE IF NOT EXISTS contacts (
